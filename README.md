@@ -27,7 +27,8 @@ cd patinhas-do-bem
 vp install
 
 # 3. Criar o arquivo de variáveis de ambiente
-cp .env.example .env      # no Windows: copy .env.example .env
+cp .env.example .env      # no Windows: copy .env.example .env 
+#No MySQL (phpMyAdmin do XAMPP): executar database/schema.sql
 
 # 4. Iniciar a API (Terminal 1)
 vp run api
