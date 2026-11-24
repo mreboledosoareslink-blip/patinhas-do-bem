@@ -33,7 +33,7 @@ cp .env.example .env      # no Windows: copy .env.example .env
 vp run api
 
 # 5. Iniciar o frontend (Terminal 2)
-vp dev
+vp  run dev
 ```
 
 Abra http://localhost:5173. A página deve mostrar **Status da API: ok**.
